@@ -5,7 +5,7 @@ const CURRENTS_KEY = 'rRvwBLutONQVVE-7asbxMXZM7FTcK02iBn6yZmCHxb9vFm2o';
 const HELIUS_RPC = `https://mainnet.helius-rpc.com/?api-key=${HELIUS_KEY}`;
 const HELIUS_API = `https://api.helius.xyz/v0`;
 
-export default async function handler(req, res) {
+module.exports = async function handler(req, res) {
   // CORS — allow requests from anywhere (claude.ai artifact iframe)
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
