@@ -1,0 +1,9 @@
+{
+  "name": "forensics-proxy",
+  "version": "1.0.0",
+  "description": "Memecoin Forensics Analyzer — API proxy for Helius, Arkham, Currents",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev"
+  }
+}
